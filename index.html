@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body input type="text" onkeydown="keycode()">
     <h1>Keycode Generator</h1>
-    <input type="text" onkeypress="keycode()">
+    <>
     <p id="keycode">Keycode</p>
 
     <p id="key">event.key</p>
+    <p id="code">event.code</p>
+    <p id="which">event.which</p>
 
 
 <script src="app.js"></script>
