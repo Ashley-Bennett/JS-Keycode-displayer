@@ -10,5 +10,3 @@ const keycode = () => {
     document.getElementById("code").innerHTML = code
     document.getElementById("which").innerHTML = which
 }
-
-

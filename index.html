@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body input type="text" onkeydown="keycode()">
-    <h1>Keycode Generator</h1>
-    <>
-    <p id="keycode">Keycode</p>
-
-    <p id="key">event.key</p>
-    <p id="code">event.code</p>
-    <p id="which">event.which</p>
-
+    <div class="grid-container">
+        <h1 id="Title">Keycode Generator</h1>
+    
+        <div class="key">
+            <p id="ketT">The key outputed</p>
+            <p id="key">event.key</p>
+        </div>  
+        <div class="code">
+            <p id="codeT">The key that was pressed</p>
+            <p id="code">event.code</p>
+        </div>
+        <div class="which">
+            <p id="whichT">The index of the pressed key</p>
+            <p id="which">event.which</p>
+        </div>
+    </div>
 
 <script src="app.js"></script>
 </body>
